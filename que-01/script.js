@@ -1,11 +1,25 @@
-let allNumber= [];
+let series = [];
+let lengthVal=0;
+let largestNumber;
+for (i = 1; i < 1000000; i++) {
+  series=[];
+  let num = i;
+  
+  while (num != 1) {
+    if (num % 2 == 0) {
+      num = num / 2;
+      series.push(num);
 
-for(i=1; i<=10; i++){
-      allNumber.push(i);
+    }
+    else {
+      num = (num * 3) + 1;
+      series.push(num);
+  
+    }
+  }
+  if(series.length>lengthVal){
+    lengthVal=series.length;
+    largestNumber=i;
+  }
 }
-
-allNumber.forEach(val)
-function val(item){
-    item%2==0
-}
-// console.log(allNumber);
+console.log(largestNumber);
