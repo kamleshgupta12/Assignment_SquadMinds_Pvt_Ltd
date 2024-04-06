@@ -9,7 +9,22 @@
     align-content: center;
 
 }
-
+.htmlTxt{
+    width: 68px;
+    height: 28px;
+    background-color: white;
+    border-radius: 8px;
+    top: 119px;
+    right: -125px;
+    z-index: 1000;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 3, 76);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -278,7 +293,7 @@
     left: 20px;
     height: 7px;
     width: 100px;
-    background-color: rgb(177, 175, 175);
+    background-color: rgb(131, 130, 130);
     border-radius: 20px;
 }
 
@@ -288,7 +303,7 @@
     left: 126px;
     width: 7px;
     height: 7px;
-    background-color: rgb(177, 175, 175);
+    background-color: rgb(131, 130, 130);
     border-radius: 50%;
 
 }
