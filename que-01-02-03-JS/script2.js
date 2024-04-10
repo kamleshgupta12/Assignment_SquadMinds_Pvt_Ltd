@@ -1,12 +1,12 @@
 function longestCommonSubsequence(str1, str2) {
   const arr = [];
-  // col
+
   for (let i = 0; i <= str1.length; i++) {
     arr[i] = [];
     arr[i][0] = 0;
   }
 
-  // row
+        
   for (let j = 0; j <= str2.length; j++) {
     arr[0][j] = 0;
   }
@@ -26,8 +26,10 @@ function longestCommonSubsequence(str1, str2) {
   }
   return arr[str1.length][str2.length];
 }
-const str1 = "ABCBDAB";
-const str2 = "BDCAB";
+const str1 = "RAMA";
+const str2 = "KAM";
 
 console.log("Length of longestCommonSubsequence:", longestCommonSubsequence(str1, str2));
 
+
+let value = c
